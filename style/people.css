@@ -1,0 +1,28 @@
+.member-card {
+    border: solid var(--dark) 2px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.member-card img {
+    width: 8rem;
+    aspect-ratio: 1;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 5%;
+}
+
+.member-card .text {
+    margin-top: 2rem;
+}
+
+
+@media screen and (min-width: 600px) {
+}
+
+@media all and (max-width: 600px) {
+    .member-card { width: 90%; } 
+    .member-card .text { margin-top: 0.25rem;}
+    .member-card img { width: 5.5rem; height: 5.5rem;}
+}
